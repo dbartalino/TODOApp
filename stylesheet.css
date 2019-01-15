@@ -1,0 +1,41 @@
+#pageFont {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 25%;
+}
+
+#pageFont th {
+	padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+	border: 1px solid #111111
+}
+
+#pageFont td, #pageFont th {
+	1px solid #ddd;
+	padding: 6px;
+	text-align: left;
+}
+
+.addBox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: inline-block;
+	padding: 2px;
+	border: 1px solid black;
+}
+
+.addBox:hover {
+	background-color: white;
+}
+
+.deleteBox {
+	display: inline-block;
+	padding: 4px;
+	border: 2px solid black;
+}
+
+.deleteBox:hover {
+	background-color: #000000;
+}
